@@ -1,6 +1,7 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap');
-
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     margin:0;
@@ -11,10 +12,18 @@ body{
  #navbar{
     display: flex;
     justify-content:space-around;
-    background: #00800082;
     align-items: center;
     object-fit: cover;
 }
+
+.link:hover{
+    color:#0ad22b ;
+}
+
+.inscrip:hover{
+    background:#0ad22b ;
+}
+
 .premier-logo img{
     width: 100%;
     height: 162px;
@@ -26,7 +35,6 @@ ul{
    list-style: none;
 }
 ul .link{
-    background: #09721b;
     border: 1px;
     padding: 5px;
     border-radius: 7px;
@@ -54,9 +62,14 @@ ul .link{
 }
 .Designer p{
     text-align: center;
-    color: #09721b;
-    font-weight:500;
-}
+    color: #c3cbc4fc;
+    font-weight: 500;
+    background: black;
+    padding: 2px;
+    margin: 103px;
+    margin-top: -22px;
+      }    
+
 .glass i{
     font-size: xx-large;
 }
@@ -65,9 +78,174 @@ ul .link{
     justify-content: space-evenly;
     display: flex;
     gap: 68px;
-    padding: 51px;
+    padding: 40px;
     background: #00800082;
 }
 .carte-emoji{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+h2{
+    text-align: center;
+}
+.vogue img{
+    width: 95%;
+}
+.vogue a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    background: #09721b;
+    color: white;
+    display: flex;
+    padding: 9px;
+    border-radius: 7px;
+}
+
+#touslesarticles{
+    display: flex;
+    justify-content: space-around;
+    gap: 21px;
+}
+
+#touslesarticles img{
+    width: 100%;
+    height: 371px;
+    object-fit: cover;
     
+}
+
+
+.couture{
+    display: flex;
+    justify-content: center;
+}
+h3{
+
+}
+h1{
+    font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.vogue a:hover{
+    background: #0ad22b;
+}
+.vogue img{
+    -webkit-filter: blur(3px);
+     filter: blur(3px);
+     -webkit-transition: .3s ease-in-out;
+     transition: .3s ease-in-out;
+ }
+ 
+ .vogue:hover img {
+     -webkit-filter: blur(0);
+     filter: blur(0);
+ }
+ .premier-logo img{
+    -webkit-transform: scale(1);
+     transform: scale(1);
+     -webkit-transition: .3s ease-in-out;
+     transition: .3s ease-in-out;
+ }
+ .premier-logo:hover img {
+     -webkit-transform: scale(1.3);
+     transform: scale(1.3);
+ }
+ #social{
+    display: flex;
+    justify-content: space-around;
+    padding: 58px;
+ }
+#fin{
+    margin-top: 34px;
+}
+.touslesarticles a{
+    font-family: bold;
+}
+
+ .vogue a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ .vogue h3{
+  font-family: 'Courier New', Courier, monospace;
+ }
+ #article h2{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+ }
+ .vogue{
+    box-shadow: 0px 2px 15px -3px rgba(0,0,0,0.1);
+ }
+ .vogue:hover{
+    box-shadow: 0px 2px 15px -3px rgba(0,0,0,0.9);
+ }
+ a{
+    text-decoration: none;
+    color: black;
+ }
+ .perso img{
+    width: 289px;
+    height: 289px;
+    border-radius: 200px;
+    border: 2px solid;
+    object-fit:cover;
+ }
+ .designers{
+    display: flex;
+    justify-content: space-around;
+    background: currentColor;
+}
+
+ .nameso h4{
+    display: flex;
+    justify-content: center;
+ }
+.perso{
+    border: 2px solid;
+    border-radius: 12px;
+    box-shadow: 20px -4px 8px -13px rgba(0,0,0,0.1);
+}
+.perso.tersion:hover{
+    transition: all .3s;
+    background: rgb(62, 62, 185);  
+    text-transform: uppercase;
+    color:rgb(240, 241, 225);
+}
+.perso.uno:hover{
+    transition: all .3s;
+    background: rgb(248, 66, 103);  
+    text-transform: uppercase;
+    color:rgb(240, 241, 225);  
+}
+.perso.dos:hover{
+    transition: all .3s;
+    background: rgba(170, 129, 246, 0.29);
+    text-transform: uppercase;
+    color:rgb(17, 18, 1);
+}
+.media{
+    display: flex;
+    justify-content: center;
+    padding: 14px;
+}
+.tel-adresse{
+    display: flex;
+    justify-content: space-around;
+    padding: 48px;
+    text-transform: uppercase;
+}
+
+.social-m{
+    display: flex;
+    justify-content: space-around;
+}
+.pp{
+    justify-content: space-around;
+    display: flex;
+}
+
+#infos{
+    background: #00800082;
 }
